@@ -1,6 +1,19 @@
 <h2>Записаться</h2>
 <p>На этой странице вы сможете записаться к нам в Barber Shop</p>
 
+<script type="text/javascript">
+
+$(function(){
+
+  //тут можно написать любой javascript код
+  //который исполнится после загрузки страницы
+
+  $('#color').simplecolorpicker();
+
+});
+
+</script>
+
 <form action="/visit" method="POST" role="form">
 
   <div class="form-group">
@@ -45,14 +58,8 @@
     </select>
   </div>
 
-
-
   <button type="submit" class="btn btn-primary">Записаться</button>
 
 </form>
 
-<script type="text/javascript">
 
-$('#color').simplecolorpicker();
-
-</script>
